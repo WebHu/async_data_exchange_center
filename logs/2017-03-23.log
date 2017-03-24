@@ -1,0 +1,165 @@
+[2017-03-23 11:06:42.832] [ERROR] dateFileLog - TypeError: Base64 is not a constructor
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:45:17
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\log4js\lib\connect-logger.js:103:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:176:3)
+    at router (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:618:15
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:176:3)
+[2017-03-23 11:12:22.338] [ERROR] dateFileLog - TypeError: Base64 is not a constructor
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:45:17
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\log4js\lib\connect-logger.js:103:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:176:3)
+    at router (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:618:15
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:176:3)
+[2017-03-23 11:14:54.851] [ERROR] dateFileLog - TypeError: Base64 is not a constructor
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:45:17
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\log4js\lib\connect-logger.js:103:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at Function.handle (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:176:3)
+    at router (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:46:12)
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:618:15
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:256:14)
+    at Function.handle (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:176:3)
+[2017-03-23 11:14:54.869] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:20:47.882] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-23 11:20:47.903] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:27:40.073] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-23 11:27:40.080] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:27:52.215] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-23 11:27:52.230] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:28:45.786] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-23 11:28:45.799] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:37:44.031] [INFO] dateFileLog - function sub() { [native code] },用户校验通过
+[2017-03-23 11:37:44.051] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:44:49.046] [INFO] dateFileLog - function sub() { [native code] },用户校验通过
+[2017-03-23 11:46:20.876] [ERROR] dateFileLog - 401,校验未通过
+[2017-03-23 11:48:41.565] [INFO] dateFileLog - undefined,用户校验通过
+[2017-03-23 11:48:41.583] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:48:56.614] [INFO] dateFileLog - undefined,用户校验通过
+[2017-03-23 11:48:56.635] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:49:10.783] [INFO] dateFileLog - undefined,用户校验通过
+[2017-03-23 11:49:10.797] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:49:22.693] [ERROR] dateFileLog - 401,校验未通过
+[2017-03-23 11:49:22.703] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 11:53:55.629] [INFO] dateFileLog - undefined,用户校验通过
+[2017-03-23 11:53:55.639] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 14:06:09.694] [INFO] dateFileLog - test,用户校验通过
+[2017-03-23 14:06:10.764] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:12:57.543] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:12:57 GMT+0800 (中国标准时间)
+[2017-03-23 16:13:03.611] [ERROR] dateFileLog - TypeError: global.token_map.put is not a function,身份校验异常
+[2017-03-23 16:13:03.635] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:13:50.749] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:13:50 GMT+0800 (中国标准时间)
+[2017-03-23 16:14:29.917] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:19:06.561] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:19:06 GMT+0800 (中国标准时间)
+[2017-03-23 16:26:10.316] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:26:10 GMT+0800 (中国标准时间)
+[2017-03-23 16:26:20.345] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:27:37.212] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:27:37 GMT+0800 (中国标准时间)
+[2017-03-23 16:28:03.321] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:34:44.503] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:34:44 GMT+0800 (中国标准时间)
+[2017-03-23 16:35:01.560] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:36:53.797] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:36:53 GMT+0800 (中国标准时间)
+[2017-03-23 16:38:25.581] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:38:25 GMT+0800 (中国标准时间)
+[2017-03-23 16:38:43.624] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:38:58.818] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:39:26.379] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:48:14.895] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:48:14 GMT+0800 (中国标准时间)
+[2017-03-23 16:48:44.917] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:49:07.829] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:49:07 GMT+0800 (中国标准时间)
+[2017-03-23 16:49:17.859] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:49:39.273] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:49:52.532] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:50:13.486] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:50:45.924] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:50:45 GMT+0800 (中国标准时间)
+[2017-03-23 16:51:02.983] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:51:57.870] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:52:37.753] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:52:37 GMT+0800 (中国标准时间)
+[2017-03-23 16:52:47.757] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:54:00.337] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:55:06.222] [ERROR] dateFileLog - 500,身份校验异常,不存在对应的queue
+[2017-03-23 16:55:06.226] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:58:49.994] [ERROR] dateFileLog - 500,身份校验异常,不存在对应的queue
+[2017-03-23 16:58:50.001] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 16:59:26.363] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 16:59:26 GMT+0800 (中国标准时间)
+[2017-03-23 16:59:36.372] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:00:12.673] [ERROR] dateFileLog - ReferenceError: appid is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:29:45
+    at Object.exports.validateData (E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:25:13)
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:110:18
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:39:17
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-03-23 17:00:12.678] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-23 17:00:22.617] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:01:45.362] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:01:45 GMT+0800 (中国标准时间)
+[2017-03-23 17:01:47.903] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-23 17:01:48.396] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:06:11.843] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:06:11 GMT+0800 (中国标准时间)
+[2017-03-23 17:06:21.867] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:07:14.778] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:07:14 GMT+0800 (中国标准时间)
+[2017-03-23 17:07:15.792] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:41:20.935] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:41:20 GMT+0800 (中国标准时间)
+[2017-03-23 17:41:20.942] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:41:20 GMT+0800 (中国标准时间)
+[2017-03-23 17:41:20.968] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-23 17:41:30.947] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:42:48.033] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:42:48 GMT+0800 (中国标准时间)
+[2017-03-23 17:42:58.039] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:43:13.273] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 17:51:20.642] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 17:51:20 GMT+0800 (中国标准时间)
+[2017-03-23 17:51:21.690] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 18:05:10.914] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 18:05:10 GMT+0800 (中国标准时间)
+[2017-03-23 18:05:11.963] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 18:05:26.317] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 18:06:39.596] [INFO] dateFileLog - test,用户校验通过,Thu Mar 23 2017 18:06:39 GMT+0800 (中国标准时间)
+[2017-03-23 18:06:49.622] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-23 18:07:02.826] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue

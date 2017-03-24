@@ -1,0 +1,401 @@
+[2017-03-22 10:49:22.779] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 10:52:15.369] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 10:52:15.384] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 10:54:57.805] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 10:54:57.895] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:01:13.357] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 11:01:13.407] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:01:56.911] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 11:01:56.926] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:05:41.657] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:06:56.848] [ERROR] dateFileLog - clientReference/payload is undefined
+[2017-03-22 11:06:56.866] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:07:18.287] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 11:07:18.304] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:08:04.625] [ERROR] dateFileLog - clientReference/payload is undefined
+[2017-03-22 11:08:04.646] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:08:14.961] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:08:55.200] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:08:59.751] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:09:16.817] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:09:16.832] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:09:22.017] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:09:31.616] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:09:31.618] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:09:41.248] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:09:44.628] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:11:07.691] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:11:24.173] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:12:10.315] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:13:41.550] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:13:41.555] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:13:41.556] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:14:10.374] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:15:02.484] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:22:22.767] [ERROR] dateFileLog - Error: mongodb-queue: provide a queue name
+    at new Queue (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:38:15)
+    at module.exports (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:29:12)
+    at E:\nodejs_workspace\mongodb_queue\dao\queueDao.js:121:21
+    at Promise._execute (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\debuggability.js:300:9)
+    at Promise._resolveFromExecutor (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:79:10)
+    at Object.exports.ackQueue (E:\nodejs_workspace\mongodb_queue\dao\queueDao.js:118:13)
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:253:14
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:277:22
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:349:14)
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:410:3)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:128:17
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:349:14)
+[2017-03-22 11:22:22.781] [INFO] dateFileLog - GET /gateway/ackQueueForTms/58d1eaebced17012e41537ad
+[2017-03-22 11:23:09.872] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 58d1eaebced17012e41537ad
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:23:09.885] [INFO] dateFileLog - GET /gateway/ackQueueForTms/58d1eaebced17012e41537ad
+[2017-03-22 11:26:27.728] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 58d1eaebced17012e41537ad
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:26:27.740] [INFO] dateFileLog - GET /gateway/ackQueueForTms/58d1eaebced17012e41537ad
+[2017-03-22 11:27:01.229] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 58d1ebe5ced17012e41537b1
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:27:01.233] [INFO] dateFileLog - GET /gateway/ackQueueForTms/58d1ebe5ced17012e41537b1
+[2017-03-22 11:27:10.760] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 58d1ebe5ced17012e41537b1
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:27:10.766] [INFO] dateFileLog - GET /gateway/ackQueueForTms/58d1ebe5ced17012e41537b1
+[2017-03-22 11:28:06.605] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:28:06.612] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:28:32.030] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 2229daa1831fe35748920e74e9d527db
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:28:32.033] [INFO] dateFileLog - GET /gateway/ackQueueForTms/2229daa1831fe35748920e74e9d527db
+[2017-03-22 11:30:22.133] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 2229daa1831fe35748920e74e9d527db
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:30:22.140] [INFO] dateFileLog - GET /gateway/ackQueueForTms/2229daa1831fe35748920e74e9d527db
+[2017-03-22 11:31:08.734] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:31:25.398] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 1fedb83ea572535a2e5c44cc65448e9e
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:31:25.403] [INFO] dateFileLog - GET /gateway/ackQueueForTms/1fedb83ea572535a2e5c44cc65448e9e
+[2017-03-22 11:32:05.724] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:33:31.623] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 1fedb83ea572535a2e5c44cc65448e9e
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 11:33:31.638] [INFO] dateFileLog - GET /gateway/ackQueueForTms/1fedb83ea572535a2e5c44cc65448e9e
+[2017-03-22 11:35:00.311] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:35:00.321] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:39:49.288] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:39:49.293] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:41:59.139] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:41:59.147] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:42:08.097] [INFO] dateFileLog - GET /gateway/ackQueueForTms/b7caaca8a69f2580af67a4fa6b03998e
+[2017-03-22 11:43:14.450] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:43:14.454] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:43:14.455] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:45:08.262] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:47:14.130] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:50:17.220] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:52:08.797] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:53:13.390] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:54:36.307] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:54:36.315] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:54:50.822] [INFO] dateFileLog - GET /gateway/ackQueueForTms/218d3a341c8036d3fb1cd346537fcb8f
+[2017-03-22 11:56:19.243] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 11:56:19.251] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 11:56:34.265] [INFO] dateFileLog - GET /gateway/ackQueueForTms/9194109e94c8c6692d8efb598955a658
+[2017-03-22 11:58:44.870] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 12:00:00.272] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:07:53.540] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:30:26.969] [ERROR] dateFileLog - Error: mongodb-queue: provide a queue name
+    at new Queue (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:38:15)
+    at module.exports (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:29:12)
+    at E:\nodejs_workspace\mongodb_queue\dao\queueDao.js:34:21
+    at Promise._execute (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\debuggability.js:300:9)
+    at Promise._resolveFromExecutor (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:483:18)
+    at new Promise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:79:10)
+    at Object.exports.puQueue (E:\nodejs_workspace\mongodb_queue\dao\queueDao.js:32:13)
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:142:18
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:79:17
+    at process._tickCallback (internal/process/next_tick.js:103:7)
+[2017-03-22 12:32:52.942] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 12:32:53.399] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:33:10.149] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:33:35.920] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:35:03.514] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:46:29.746] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 12:47:33.358] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 12:52:58.742] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:50:11.354] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:50:17.829] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 13:50:22.027] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:50:44.911] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:50:48.686] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 13:51:38.931] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:51:51.572] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 13:51:56.280] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:52:06.374] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:52:09.615] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 13:52:37.115] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:52:47.582] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:52:55.023] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:57:11.867] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:57:16.562] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 13:57:23.416] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:00:08.167] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 14:00:10.158] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:00:29.826] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 14:00:31.625] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:05:51.822] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:05:59.877] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:07:05.683] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:07:07.860] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:07:34.417] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 14:07:34.469] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:07:36.458] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 14:07:36.633] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:08:04.763] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:09:42.503] [INFO] dateFileLog - PUT /gateway/addQueueForTms/tuochebao_queue
+[2017-03-22 14:09:48.657] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:11:24.803] [INFO] dateFileLog - GET /gateway/getQueueForTms
+[2017-03-22 14:11:32.232] [INFO] dateFileLog - GET /gateway/getQueueForTms/tms_queue
+[2017-03-22 14:11:43.160] [INFO] dateFileLog - GET /gateway/getQueueForTms/tuochebao_queue
+[2017-03-22 14:12:48.263] [INFO] dateFileLog - PUT /gateway/addQueueForTms
+[2017-03-22 14:12:54.287] [INFO] dateFileLog - PUT /gateway/addQueueForTms/tms_queue
+[2017-03-22 14:13:05.316] [INFO] dateFileLog - GET /gateway/getQueueForTms/tms_queue
+[2017-03-22 14:13:08.422] [INFO] dateFileLog - GET /gateway/getQueueForTms/tuochebao_queue
+[2017-03-22 14:13:49.657] [INFO] dateFileLog - PUT /gateway/addQueueForTms/tuochebao_queue
+[2017-03-22 14:16:11.510] [INFO] dateFileLog - GET /gateway/getQueuesByMyself/tms01/c01/put01
+[2017-03-22 14:26:54.376] [INFO] dateFileLog - GET /gateway/getQueuesByMyself/put01
+[2017-03-22 14:27:29.951] [INFO] dateFileLog - GET /gateway/getQueuesByMyself/tms_queue/put01
+[2017-03-22 14:27:41.052] [INFO] dateFileLog - GET /gateway/getQueueByCid/tms_queue/put01
+[2017-03-22 14:27:46.454] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:28:24.817] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:32:59.883] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromiseCtx (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:606:10)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:138:12)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:33:18.168] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:34:51.837] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:36:12.263] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:37:08.552] [ERROR] dateFileLog - ReferenceError: doc is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\gateway.js:303:45
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-22 14:37:19.970] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:38:26.701] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:39:26.427] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:39:43.763] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:40:23.789] [INFO] dateFileLog - GET /gateway/getQueueForTms/tms_queue
+[2017-03-22 14:40:32.639] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-22 14:40:53.329] [INFO] dateFileLog - GET /gateway/ackQueue/8b667c8e7be141bcce05fc1ff31712fa
+[2017-03-22 14:41:00.124] [INFO] dateFileLog - GET /gateway/ackQueue/tms_queue/8b667c8e7be141bcce05fc1ff31712fa
+[2017-03-22 14:41:08.786] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:41:40.364] [INFO] dateFileLog - PUT /gateway/addQueue/tuochebao_queue
+[2017-03-22 14:46:09.596] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:46:11.620] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:47:44.726] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 14:53:37.730] [INFO] dateFileLog - DELETE /gateway/deleteQueue/
+[2017-03-22 14:54:47.204] [ERROR] dateFileLog - queue:58d1ff31de6c11168cf8e180删除失败
+[2017-03-22 14:54:47.205] [INFO] dateFileLog - DELETE /gateway/deleteQueue/dead_tms_queue/58d1ff31de6c11168cf8e180
+[2017-03-22 14:55:04.671] [INFO] dateFileLog - queue:58d1ff31de6c11168cf8e180删除成功
+[2017-03-22 14:55:04.675] [INFO] dateFileLog - DELETE /gateway/deleteQueue/dead-tms_queue/58d1ff31de6c11168cf8e180
+[2017-03-22 14:58:22.833] [INFO] dateFileLog - PUT /gateway/addQueue/tuochebao_queue
+[2017-03-22 14:59:21.002] [INFO] dateFileLog - PUT /gateway/addQueue/tuochebao_queue
+[2017-03-22 14:59:28.983] [INFO] dateFileLog - PUT /gateway/addQueue/tuochebao_queue
+[2017-03-22 14:59:50.070] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 15:00:01.250] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 15:00:21.378] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 15:00:35.395] [ERROR] dateFileLog - 用户校验未通过
+[2017-03-22 15:00:35.413] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 15:01:39.067] [INFO] dateFileLog - xx用户校验通过
+[2017-03-22 15:01:39.097] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 15:02:29.637] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 15:02:29.681] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/put01
+[2017-03-22 16:37:29.422] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:37:29.441] [INFO] dateFileLog - PUT /gateway/addQueue/tuochebao_queue
+[2017-03-22 16:45:09.819] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:45:09.832] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-22 16:46:27.604] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:46:28.612] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-22 16:48:07.458] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:48:07.465] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : 1ae376a1d39551a0187dd963410432ab
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 16:48:07.467] [INFO] dateFileLog - GET /gateway/ackQueue/tms_queue/1ae376a1d39551a0187dd963410432ab
+[2017-03-22 16:48:11.607] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:48:12.610] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-22 16:48:29.365] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:48:29.372] [INFO] dateFileLog - GET /gateway/ackQueue/tms_queue/d39a5b3a0381c7ed026132ec76823a40
+[2017-03-22 16:48:44.909] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:48:59.362] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:48:59.367] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-22 16:48:59.925] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-22 16:49:42.051] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 16:49:42.060] [INFO] dateFileLog - GET /gateway/getQueueByid/tms_queue/test021
+[2017-03-22 17:26:21.372] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 17:26:21.378] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : d39a5b3a0381c7ed026132ec76823a40
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-22 17:26:21.380] [INFO] dateFileLog - GET /gateway/ackQueue/tms_queue/d39a5b3a0381c7ed026132ec76823a40
+[2017-03-22 17:26:27.540] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 17:26:28.546] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-22 17:57:49.518] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 17:57:50.561] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-22 17:59:00.536] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 17:59:00.546] [INFO] dateFileLog - PUT /gateway/tms_queue
+[2017-03-22 17:59:09.250] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 17:59:09.271] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-22 17:59:12.761] [INFO] dateFileLog - 96ae9143d2c70e09,用户校验通过
+[2017-03-22 17:59:13.785] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue

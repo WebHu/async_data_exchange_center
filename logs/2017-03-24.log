@@ -1,0 +1,124 @@
+[2017-03-24 09:38:42.301] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 09:38:42 GMT+0800 (中国标准时间)
+[2017-03-24 09:40:21.257] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 09:40:21 GMT+0800 (中国标准时间)
+[2017-03-24 09:41:43.661] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 09:44:00.466] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 09:44:00 GMT+0800 (中国标准时间)
+[2017-03-24 09:44:20.816] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 09:45:26.198] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 09:45:26 GMT+0800 (中国标准时间)
+[2017-03-24 09:45:36.220] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:15:33.985] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:15:33 GMT+0800 (中国标准时间)
+[2017-03-24 10:15:44.013] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:21:56.143] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:21:56 GMT+0800 (中国标准时间)
+[2017-03-24 10:22:10.176] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:31:54.388] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:31:54 GMT+0800 (中国标准时间)
+[2017-03-24 10:32:10.445] [ERROR] dateFileLog - 500,定时器错误，ReferenceError: now is not defined
+[2017-03-24 10:32:10.452] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:33:12.566] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:33:12 GMT+0800 (中国标准时间)
+[2017-03-24 10:34:04.909] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:35:34.853] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:35:34 GMT+0800 (中国标准时间)
+[2017-03-24 10:35:39.911] [ERROR] dateFileLog - 500,定时器错误，TypeError: param.push is not a function
+[2017-03-24 10:35:39.918] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:38:19.297] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:38:19 GMT+0800 (中国标准时间)
+[2017-03-24 10:38:20.323] [ERROR] dateFileLog - 500,定时器错误，SyntaxError: Unexpected token o in JSON at position 1
+[2017-03-24 10:38:20.335] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 10:45:06.744] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 10:45:06 GMT+0800 (中国标准时间)
+[2017-03-24 10:45:07.750] [ERROR] dateFileLog - 500,定时器错误，SyntaxError: Unexpected token o in JSON at position 1
+[2017-03-24 10:45:07.752] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 11:39:34.737] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:39:34 GMT+0800 (中国标准时间)
+[2017-03-24 11:39:35.760] [ERROR] dateFileLog - 500,定时器错误，TypeError: params.forEach is not a function
+[2017-03-24 11:39:35.768] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 11:41:57.042] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:41:57 GMT+0800 (中国标准时间)
+[2017-03-24 11:42:07.071] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 11:43:00.467] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:43:00 GMT+0800 (中国标准时间)
+[2017-03-24 11:43:10.483] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 11:43:21.240] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:43:21 GMT+0800 (中国标准时间)
+[2017-03-24 11:50:28.426] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:50:28 GMT+0800 (中国标准时间)
+[2017-03-24 11:53:28.877] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:53:28 GMT+0800 (中国标准时间)
+[2017-03-24 11:53:38.897] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 11:54:58.903] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:54:58 GMT+0800 (中国标准时间)
+[2017-03-24 11:55:08.919] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 11:55:31.899] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 11:55:31 GMT+0800 (中国标准时间)
+[2017-03-24 11:55:41.934] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 12:00:48.496] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 12:00:48 GMT+0800 (中国标准时间)
+[2017-03-24 12:00:58.526] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 14:10:36.536] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:10:36 GMT+0800 (中国标准时间)
+[2017-03-24 14:10:36.540] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:10:36 GMT+0800 (中国标准时间)
+[2017-03-24 14:10:36.577] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-24 14:10:46.540] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 14:11:23.911] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-24 14:11:24.297] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 14:12:18.730] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:12:18 GMT+0800 (中国标准时间)
+[2017-03-24 14:12:28.760] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 14:12:36.591] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-24 14:12:36.596] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue
+[2017-03-24 14:15:01.426] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:15:01 GMT+0800 (中国标准时间)
+[2017-03-24 14:15:01.446] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue/a/a
+[2017-03-24 14:15:33.829] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:15:33 GMT+0800 (中国标准时间)
+[2017-03-24 14:15:33.848] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue/a/a
+[2017-03-24 14:16:22.680] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:16:22 GMT+0800 (中国标准时间)
+[2017-03-24 14:16:22.688] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue/a
+[2017-03-24 14:19:36.344] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:19:36 GMT+0800 (中国标准时间)
+[2017-03-24 14:19:36.365] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue/a
+[2017-03-24 14:21:09.125] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:21:09 GMT+0800 (中国标准时间)
+[2017-03-24 14:21:39.259] [INFO] dateFileLog - GET /gateway/getQueue/tms_queue/a
+[2017-03-24 14:50:08.317] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:50:08 GMT+0800 (中国标准时间)
+[2017-03-24 14:50:08.325] [INFO] dateFileLog - GET /gateway/getQueue
+[2017-03-24 14:50:33.610] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:50:33 GMT+0800 (中国标准时间)
+[2017-03-24 14:50:40.693] [INFO] dateFileLog - GET /gateway/
+[2017-03-24 14:51:05.549] [INFO] dateFileLog - GET /gateway/a
+[2017-03-24 14:51:18.527] [INFO] dateFileLog - GET /gateway/a/1
+[2017-03-24 14:51:53.810] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:51:53 GMT+0800 (中国标准时间)
+[2017-03-24 14:51:54.831] [ERROR] dateFileLog - 500,定时器错误，MongoError: filter parameter must be an object
+[2017-03-24 14:51:54.833] [INFO] dateFileLog - GET /gateway/a/1
+[2017-03-24 14:52:53.308] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:52:53 GMT+0800 (中国标准时间)
+[2017-03-24 14:53:41.374] [INFO] dateFileLog - GET /gateway/a/1
+[2017-03-24 14:59:38.253] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 14:59:38 GMT+0800 (中国标准时间)
+[2017-03-24 14:59:38.263] [INFO] dateFileLog - GET /gateway/a/1
+[2017-03-24 15:00:22.851] [INFO] dateFileLog - GET /gateway/getQueue/a/1
+[2017-03-24 15:00:46.264] [INFO] dateFileLog - GET /gateway/getQueue/a
+[2017-03-24 15:00:50.240] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 15:00:50 GMT+0800 (中国标准时间)
+[2017-03-24 15:01:00.245] [INFO] dateFileLog - GET /gateway/getQueue
+[2017-03-24 15:01:18.580] [INFO] dateFileLog - PUT /gateway/addQueue/tms_queue
+[2017-03-24 15:01:18.749] [INFO] dateFileLog - GET /gateway/getQueue
+[2017-03-24 15:03:30.837] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 15:03:30 GMT+0800 (中国标准时间)
+[2017-03-24 15:03:47.962] [INFO] dateFileLog - PUT /gateway
+[2017-03-24 15:04:12.694] [INFO] dateFileLog - PUT /gateway/af
+[2017-03-24 15:47:01.699] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 15:47:01 GMT+0800 (中国标准时间)
+[2017-03-24 15:47:01.706] [INFO] dateFileLog - PUT /gateway/af
+[2017-03-24 15:48:00.116] [ERROR] dateFileLog - 发送失败,ReferenceError: next is not defined
+[2017-03-24 15:48:00.120] [INFO] dateFileLog - PUT /gateway/
+[2017-03-24 15:49:22.455] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 15:49:22 GMT+0800 (中国标准时间)
+[2017-03-24 15:49:22.492] [INFO] dateFileLog - PUT /gateway/
+[2017-03-24 15:50:39.417] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 15:50:39 GMT+0800 (中国标准时间)
+[2017-03-24 15:50:39.430] [INFO] dateFileLog - PUT /gateway/
+[2017-03-24 15:50:56.134] [INFO] dateFileLog - GET /gateway/getQueue
+[2017-03-24 15:51:15.301] [INFO] dateFileLog - GET /gateway/getQueue/a
+[2017-03-24 15:51:32.213] [INFO] dateFileLog - GET /gateway/getQueue/a/1
+[2017-03-24 15:51:50.512] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 15:51:50 GMT+0800 (中国标准时间)
+[2017-03-24 15:51:51.519] [INFO] dateFileLog - GET /gateway/getQueue/income_fee
+[2017-03-24 15:52:22.158] [INFO] dateFileLog - GET /gateway/getQueue/income_fee/fee
+[2017-03-24 15:52:30.460] [INFO] dateFileLog - GET /gateway/getQueue/income_fee/fee
+[2017-03-24 16:08:37.487] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 16:08:37 GMT+0800 (中国标准时间)
+[2017-03-24 16:08:37.517] [ERROR] dateFileLog - ackQueue异常,消息已过期，Error: Queue.ack(): Unidentified ack : 503711b8224c4a9d0b6bafbb954399e8
+[2017-03-24 16:08:37.527] [INFO] dateFileLog - GET /gateway/ackQueue/503711b8224c4a9d0b6bafbb954399e8
+[2017-03-24 16:08:57.359] [INFO] dateFileLog - GET /gateway/getQueue/income_fee/fee
+[2017-03-24 16:09:05.636] [INFO] dateFileLog - GET /gateway/ackQueue/5b7549ba71dcfd79e4562f58a7d1f019
+[2017-03-24 16:09:35.302] [INFO] dateFileLog - GET /gateway/getQueueByid/test021
+[2017-03-24 16:39:21.740] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 16:39:21 GMT+0800 (中国标准时间)
+[2017-03-24 16:39:21.759] [INFO] dateFileLog - GET /gateway/getQueueByCid
+[2017-03-24 16:39:39.646] [INFO] dateFileLog - GET /gateway/getQueueByCid/1
+[2017-03-24 16:39:42.709] [INFO] dateFileLog - GET /gateway/getQueueByCid/1
+[2017-03-24 16:39:49.660] [INFO] dateFileLog - GET /gateway/getQueuesByCid/1
+[2017-03-24 16:40:50.873] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 16:40:50 GMT+0800 (中国标准时间)
+[2017-03-24 16:40:50.907] [INFO] dateFileLog - GET /gateway/getQueuesByCid/1
+[2017-03-24 16:41:21.445] [INFO] dateFileLog - PUT /gateway/
+[2017-03-24 16:41:43.504] [INFO] dateFileLog - PUT /gateway/
+[2017-03-24 16:41:45.517] [INFO] dateFileLog - GET /gateway/getQueuesByCid/1
+[2017-03-24 16:41:50.095] [INFO] dateFileLog - GET /gateway/getQueuesByCid/fee02
+[2017-03-24 16:42:09.902] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 16:42:09 GMT+0800 (中国标准时间)
+[2017-03-24 16:42:09.908] [INFO] dateFileLog - GET /gateway/getQueuesByOid/fee02
+[2017-03-24 16:42:15.820] [INFO] dateFileLog - GET /gateway/getQueueByOid/fee02
+[2017-03-24 16:42:18.816] [INFO] dateFileLog - GET /gateway/getQueueByOid/58d4dbb173119b168c5f8a2c
+[2017-03-24 16:44:56.555] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 16:44:56 GMT+0800 (中国标准时间)
+[2017-03-24 16:44:56.591] [INFO] dateFileLog - GET /gateway/getQueueByOid/58d4dbb173119b168c5f8a2c
+[2017-03-24 17:14:19.527] [INFO] dateFileLog - test,用户校验通过,Fri Mar 24 2017 17:14:19 GMT+0800 (中国标准时间)
+[2017-03-24 17:14:20.576] [INFO] dateFileLog - GET /gateway/getQueue/income_fee/fee

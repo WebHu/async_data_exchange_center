@@ -1,0 +1,114 @@
+[2017-03-20 15:13:43.835] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 15:13:54.534] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:15:27.567] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 15:15:29.222] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 15:17:47.681] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 15:18:07.431] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:25:39.252] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:28:22.035] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:29:58.944] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:32:45.847] [INFO] dateFileLog - undefined
+[2017-03-20 15:32:45.864] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:33:10.959] [INFO] dateFileLog - undefined
+[2017-03-20 15:33:10.969] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:43:47.761] [INFO] dateFileLog - undefined
+[2017-03-20 15:44:00.281] [INFO] dateFileLog - undefined
+[2017-03-20 15:44:00.293] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:46:45.292] [INFO] dateFileLog - undefined
+[2017-03-20 15:46:45.303] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:48:24.292] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 15:48:26.155] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 15:54:26.813] [ERROR] dateFileLog - ReferenceError: longpoll is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:15:13
+    at Object.exports.getQValidate (E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:13:11)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:41:14
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:349:14)
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:410:3)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:31:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\log4js\lib\connect-logger.js:103:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+[2017-03-20 15:55:25.417] [ERROR] dateFileLog - ReferenceError: longpoll is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:15:13
+    at Object.exports.getQValidate (E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:13:11)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:41:14
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:349:14)
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:410:3)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:31:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\log4js\lib\connect-logger.js:103:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+[2017-03-20 15:56:58.828] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 15:59:58.383] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 16:00:07.485] [INFO] dateFileLog - GET /longpolling/getQueueForTms/12
+[2017-03-20 16:04:40.194] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 16:07:08.215] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-20 16:07:41.711] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/12
+[2017-03-20 16:10:04.907] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-20 16:26:57.686] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-20 16:28:22.540] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-20 16:32:38.766] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-20 16:52:33.519] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-20 16:58:31.677] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-20 17:00:58.055] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-20 17:12:16.830] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:13:29.198] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:29:52.824] [ERROR] dateFileLog - TypeError: global.express_longpoll_emitters.indexOf is not a function
+    at E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:13:104
+    at Object.exports.getQValidate (E:\nodejs_workspace\mongodb_queue\routes\longpolling_validate.js:12:11)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:99:14
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:349:14)
+    at param (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:410:3)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:31:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\log4js\lib\connect-logger.js:103:5
+    at Layer.handle [as handle_request] (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:312:13)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:280:7
+    at Function.process_params (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:330:12)
+    at next (E:\nodejs_workspace\mongodb_queue\node_modules\express\lib\router\index.js:271:10)
+[2017-03-20 17:30:49.544] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:35:30.698] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:35:50.369] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:41:57.424] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:45:23.697] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:47:42.445] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:53:52.687] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 17:57:06.068] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 18:01:20.133] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long03
+[2017-03-20 18:04:14.610] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01

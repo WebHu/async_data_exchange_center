@@ -1,0 +1,4 @@
+[2017-03-16 15:21:03.235] [WARN] dateFileLog - queue:11sgagagagagagagag删除成功
+[2017-03-16 15:21:03.245] [INFO] dateFileLog - DELETE /gateway/deleteQueue/11sgagagagagagagag
+[2017-03-16 16:12:41.725] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/111
+[2017-03-16 16:13:37.202] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/111

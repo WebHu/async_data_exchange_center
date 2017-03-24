@@ -1,0 +1,188 @@
+[2017-03-21 09:50:20.950] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 10:05:16.287] [ERROR] dateFileLog - Error: Queue.ack(): Unidentified ack : edf96dc97a9e1ab88bb81d3bd631d4fd
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-queue\mongodb-queue.js:240:29
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\collection.js:2486:14
+    at handleCallback (E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\utils.js:95:56)
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb\lib\db.js:313:5
+    at E:\nodejs_workspace\mongodb_queue\node_modules\mongodb-core\lib\connection\pool.js:455:18
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+[2017-03-21 10:05:39.503] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 10:11:04.068] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 10:38:03.075] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 11:27:11.207] [ERROR] dateFileLog - ReferenceError: res is not defined
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:126:35
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-21 11:28:32.227] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 11:28:40.498] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 11:28:48.998] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 11:50:05.882] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 11:55:44.953] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 11:55:44.957] [ERROR] dateFileLog - TypeError: Cannot read property 'status' of undefined
+    at Object.sendJSONresponse (E:\nodejs_workspace\mongodb_queue\models\queue_init.js:19:8)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:126:18
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-21 11:57:03.754] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 11:57:16.013] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 11:57:17.813] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 13:52:59.885] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 13:53:27.089] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 13:54:21.866] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 13:54:44.486] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 13:54:49.783] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 13:56:14.056] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 13:56:56.306] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 13:57:46.352] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 13:59:30.490] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 13:59:36.174] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 13:59:55.262] [ERROR] dateFileLog - TypeError: Cannot read property 'status' of undefined
+    at Object.sendJSONresponse (E:\nodejs_workspace\mongodb_queue\models\queue_init.js:19:8)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:127:18
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-21 14:00:05.924] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 14:01:12.383] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 14:01:12.400] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 14:01:15.845] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 14:01:15.856] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 14:01:20.496] [ERROR] dateFileLog - URL already in use: /getQueueForTms/:id
+[2017-03-21 14:01:41.724] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 14:01:41.724] [ERROR] dateFileLog - TypeError: Cannot read property 'status' of undefined
+    at Object.sendJSONresponse (E:\nodejs_workspace\mongodb_queue\models\queue_init.js:19:8)
+    at E:\nodejs_workspace\mongodb_queue\routes\long-poll.js:127:18
+    at tryCatcher (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:512:31)
+    at Promise._settlePromise (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:569:18)
+    at Promise._settlePromise0 (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:614:10)
+    at Promise._settlePromises (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\promise.js:693:18)
+    at Async._drainQueue (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:133:16)
+    at Async._drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:143:10)
+    at Immediate.Async.drainQueues (E:\nodejs_workspace\mongodb_queue\node_modules\bluebird\js\release\async.js:17:14)
+    at runCallback (timers.js:649:20)
+    at tryOnImmediate (timers.js:622:5)
+    at processImmediate [as _immediateCallback] (timers.js:594:5)
+[2017-03-21 14:11:07.850] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 14:14:36.809] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 14:33:19.593] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 14:35:21.277] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:25.131] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:25.796] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:26.327] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:26.809] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:27.263] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:27.488] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:27.697] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:27.992] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:35:28.751] [INFO] dateFileLog - GET /longpolling/longpolling/addQueueForTms/long01
+[2017-03-21 14:55:17.263] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 14:55:55.436] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 14:59:44.897] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:11:18.165] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:16:54.168] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:18:00.432] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:20:05.864] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:21:50.109] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:26:51.331] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 15:48:37.245] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 15:49:17.490] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 15:51:10.967] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 15:52:23.736] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 15:53:34.187] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 15:55:19.297] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 15:57:52.074] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:01:21.567] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:05:13.459] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:05:48.594] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 16:06:36.155] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:07:22.356] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 16:08:16.425] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 16:17:00.035] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:17:33.448] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 16:18:08.536] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:20:11.537] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 16:27:41.406] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 16:39:20.011] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:00:34.068] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:01:43.368] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:01:55.272] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:01:55.275] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:08:30.520] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:08:30.528] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:08:30.529] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:09:25.595] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:10:27.865] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:12:26.134] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long02
+[2017-03-21 17:12:26.138] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long02
+[2017-03-21 17:13:40.168] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long02
+[2017-03-21 17:13:49.986] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/
+[2017-03-21 17:13:49.998] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:13:50.000] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:14:14.888] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:14:21.871] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:18:59.360] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/
+[2017-03-21 17:18:59.366] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:18:59.367] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:19:13.844] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/
+[2017-03-21 17:19:13.850] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:19:21.746] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:20:02.014] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:20:12.471] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/
+[2017-03-21 17:20:12.479] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:20:12.479] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:20:58.561] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:21:07.107] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/
+[2017-03-21 17:21:07.112] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:21:21.237] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:21:25.616] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 17:21:48.467] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:22:53.586] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 17:22:53.590] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 17:23:08.537] [INFO] dateFileLog - GET /longpolling/getQueueForTms/long01
+[2017-03-21 17:24:52.588] [INFO] dateFileLog - PUT /longpolling/addQueueForTms/long01
+[2017-03-21 17:25:09.855] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:25:09.860] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:25:34.388] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:25:55.297] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:26:06.506] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:27:18.094] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:27:18.100] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:27:18.102] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:27:35.092] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:28:00.302] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:28:47.964] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:28:47.968] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:28:58.392] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:29:20.278] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
+[2017-03-21 17:30:05.964] [INFO] dateFileLog - PUT /longpolling/addQueueForTms
+[2017-03-21 17:30:05.969] [INFO] dateFileLog - GET /longpolling/getQueueForTms
+[2017-03-21 17:30:15.964] [INFO] dateFileLog - GET /longpolling/getQueueForTms/
