@@ -13,7 +13,7 @@
     "express": "~4.14.1",
     "mongoose": ">=4.8.0",
     "bluebird": "^3.4.6",
-    "morgan": "~1.9.0",
+    "morgan": ">=1.9.0",
     "restler":"~3.4.0",
     "serve-favicon": "~2.3.2",
     "mongodb-queue":"~3.1.0",
