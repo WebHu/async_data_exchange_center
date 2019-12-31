@@ -9,7 +9,7 @@ var connectionString, mongoose, db, options, queue, deadQueue;
 mongoose = require('mongoose');
 var log = require("../models/logger");
 var logger = log.logger;
-connectionString = "mongodb://192.168.1.165:27017/mongodb-queue";
+connectionString = "mongodb://xxx:xxx/mongodb-queue";
 options = {
     db: {
         native_parser: true//启动本地解析use c++

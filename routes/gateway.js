@@ -47,7 +47,7 @@ router.use('/', function (req, res, next) {
                 //获取appid（平台）对应的queue
                 curr_queue = global.queues_map.get(appid);
                 if (curr_queue) {
-                    token.userinfo("https://id.shipxy.com/core/connect/userinfo", "Bearer " + access_token).then(function (data) {
+                    token.userinfo("https://xxx", "Bearer " + access_token).then(function (data) {
                         console.log(data)
                         companyid = data.companyid;
                         if (!companyid) {
